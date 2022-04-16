@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --altura-witdh:280px;
+}
+
+@media (max-width:931px) {
+    :root{
+        --altura-witdh:140px;
+    }
+}
+
+body{
+    background-color: hsl(0,0%,98%);
+}
+
+input{
+    display: block;
+    margin-top:8px ;
+    border: 1px groove rgba(255, 255, 255, 0.384);
+    width: var(--altura-witdh);
+    height: 40px;
+    background-color: rgb(238, 235, 235);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+
+
+.home{
+    border: 1px groove rgba(255, 255, 255, 0.384);
+    width: 30%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height:340px;
+    margin-top: 30px;
+}
+
+.senha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form button{
+    margin-top: 12px;
+    background-color: hsl(203,92%,84%);
+    color: white;
+    width: var(--altura-witdh);
+    border-radius: 5px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.face a{
+    color: hsl(220,40%,37%);
+
+}
+
+form{
+    margin-bottom: 30px;
+}
+
+.x{
+    border: 1px groove rgba(255, 255, 255, 0.384);
+    width: 100%;
+}
+
+.conta{
+    height: 60px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conta a {
+    color: hsl(203,100%,48%);
+}
+
+.app{
+    margin: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px ;
+    
+}
+
+.app img{
+    width: 120px;
+    margin-top: 20px;
+}
